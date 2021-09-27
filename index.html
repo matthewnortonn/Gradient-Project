@@ -5,6 +5,13 @@
 		<link href="https://fonts.googleapis.com/css?family=Fira+Sans|Merriweather" rel="stylesheet">
 		<link href="/css/styles.css" rel="stylesheet">
 		<title>CSS Topic - Background Clip Text</title>
+        <style> article { 
+            margin: auto;
+            width: 70%;
+            border: 3px solid navy;
+            padding: 10px;
+          }
+        </style>
 	</head>
 
     <body>
@@ -13,6 +20,7 @@
         <h1>CSS Topic - Gradients</h1>
        
         <h2>Linear Gradients</h2>
+        <p>A linear gradient is a smooth transition between two colors. To create it, you must define two color stops. A gradient also includes a direction. The colors could transition from the top to the bottom, or from left to right. Here is an example of a diagonal linear gradient- the first color stop begins in the lower left corner, transitions to the second color stop in the middle, then transitions to the third color stop on the top right corner.</p>
         
         <h3>Diagonal Gradient</h3>
         <p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="gORQXem" data-user="jone5" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
@@ -21,14 +29,18 @@
             on <a href="https://codepen.io">CodePen</a>.</span>
           </p>
           <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+          <br><br><br>
         
         <h3>Linear Gradient</h3>
+        <p>Here is an example of one that just goes from left to right.</p>
         <p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="wveQPNy" data-user="jone5" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
             <span>See the Pen <a href="https://codepen.io/jone5/pen/wveQPNy">
             Linear Gradient</a> by Jonah Hainsworth (<a href="https://codepen.io/jone5">@jone5</a>)
             on <a href="https://codepen.io">CodePen</a>.</span>
           </p>
           <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+          <p>You can even repeat a linear gradient using the repeating-linear-gradient() function.</p>
+          <br><br><br>
         
         <h3>Repeating Linear</h3>
         <p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="gORQXEx" data-user="jone5" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
@@ -37,10 +49,14 @@
             on <a href="https://codepen.io">CodePen</a>.</span>
           </p>
           <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+          <br><br><br>
+          <h3>Defining Angles</h3>
+          <p>You can also define the angle of the gradient. To top is “0deg”, and to bottom is “180deg”. To right is “90deg”. Diagonally is “45deg”</p>
      </article>
 
      <article>
         <h2>Radial Gradients</h2>
+        <p>A radial gradient is defined by its center. Think of the sun- it starts in the center and moves out. You must define at least two color stops to create a radial gradient. The default will be evenly spaced color stops. You can also create unevenly spaced color stops.</p>
 
         <h3>Radial Gradient</h3>
         <p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="LYLXOqG" data-user="jone5" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
@@ -49,8 +65,10 @@
             on <a href="https://codepen.io">CodePen</a>.</span>
           </p>
           <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+          <br><br><br>
 
         <h3>Repeating Radial</h3>
+        <p>Finally, you can do a repeating radial gradient. Do this by using the repeating-radial-gradient() function.</p>
         <p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="dyRQZjG" data-user="jone5" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
             <span>See the Pen <a href="https://codepen.io/jone5/pen/dyRQZjG">
             Repeating Radial Gradient</a> by Jonah Hainsworth (<a href="https://codepen.io/jone5">@jone5</a>)
